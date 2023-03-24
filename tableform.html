@@ -76,6 +76,7 @@
     <main>
       <br /><br /><br /><br />
       <center>
+        <section class="tabla">
         <h1>TABLA</h1>
         <table>
           <tr> 
@@ -140,6 +141,63 @@
             </td>
           </tr>
         </table>
+    </section>
+    <section class="Formulario">
+        <br><br><br>
+        <h1>FORMULARIO</h1>
+        <h4>PINTURAS FAMOSAS</h4>
+        <section class="CuadroGrande">
+        <fieldset style="width: 930px;" >
+            <legend>OBRAS DE ARTE</legend>
+            <table border="0" >
+                <tr>
+                    <td><label for="">Nombre del pintor</label></td>
+                    <td><input type="text" name="nombre" id="nombre" placeholder="Obligatorio (17)Nros"> </td>
+                    <td><label for="">Fecha de Nacimiento</label></td>
+                    <td> <input type="date" name="fechanac" id="fechanac"> </td>
+                    <td rowspan="5"><fieldset class="cuadro pequeño derecha" style="width: 200px;">
+                        <legend>Ocupaciones</legend>
+                        <input type="checkbox" name="libre" id="">Renacimiento <br>
+                        <input type="checkbox" name="libre" id="">Arte moderno<br>
+                        <input type="checkbox" name="libre" id="">Abstracto <br>
+                        <input type="checkbox" name="libre" id="">Barroco<br>
+                        <input type="checkbox" name="libre" id="">Cubismo<br>
+                    </fieldset></td>
+                </tr>
+                <tr>
+                    <td><label for="">Apellidos</label></td>
+                    <td><input type="text" name="lastname" id="lastname" placeholder="Obligatorio max(20)letras"></td>
+                    <td><label for="">Edad</label></td>
+                    <td><input type="number" name="edad" id="edad" min="0" max="100"></td>
+                </tr>
+                
+                    <td><label for="">Nombre</label></td>
+                    <td><input type="text" name="name" id="name" placeholder="Obligatorio max(20)letras"></td>
+                    <td><label for="">Mes de Nacimiento</label></td>
+                    <td><input type="month" name="mes" id="mes"></td>
+                </tr>
+                
+                    <td><label for="">Correo</label></td>
+                    <td><input type="email" name="correo" id="correo"></td>
+                    <td><label for="">Género</label></td>
+                    <td><input type="radio" name="gener" id=""> Masculino
+                        <input type="radio" name="gener" id=""> Femenino
+                    </td>
+                </tr>
+                
+                    <td><label for="">Celular</label></td>
+                    <td><input type="number" name="cel" id="cel" placeholder="### ### ## ##"></td>
+                    <td><label for="">Comuna (*Barrios*)</label></td>
+                    <td> <select id="opciones" name="opciones">
+                        <option value="opcion1">Elija una opción</option>
+                        <option value="opcion2">Opción 2</option>
+                        <option value="opcion3">Opción 3</option>
+                      </select></td>
+                </tr>
+            </table>
+        </fieldset>
+    </section>
+    </section>
       </center>
     </main>
     <footer></footer>
